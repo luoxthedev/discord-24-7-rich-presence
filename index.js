@@ -5,7 +5,15 @@ const {
 } = require("discord.js-selfbot-v13");
 const fs = require("fs");
 const yaml = require("js-yaml");
-const config = yaml.load(fs.readFileSync("./config.yml", "utf8"));
+let config;
+try {
+  config = yaml.load(fs.readFileSync("./config.yml", "utf8"));
+} catch (err) {
+  console.error(
+    "❌ Failed to load config.yml. Copy config.yml.example to config.yml and fill it in."
+  );
+  process.exit(1);
+}
 
 const client = new Client();
 

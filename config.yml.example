@@ -1,3 +1,4 @@
+# Copy this file to config.yml and keep it out of version control.
 # Replace with your Discord user token
 token: "YOUR_DISCORD_TOKEN_HERE"
 
