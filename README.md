@@ -33,7 +33,7 @@ npm install
 
 3. **Edit your config**
 
-- Open `config.yml` and set your account token and Rich Presence data.
+- Copy `config.yml.example` to `config.yml`, then set your account token and Rich Presence data.
 
 4. **Run the code**
 
