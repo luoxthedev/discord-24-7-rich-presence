@@ -1,3 +1,6 @@
+# Replace with your Discord user token
+token: "YOUR_DISCORD_TOKEN_HERE"
+
 # Replace with your Discord Application ID
 application_id: "1311204057490259979"
 

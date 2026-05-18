@@ -5,10 +5,8 @@ const {
 } = require("discord.js-selfbot-v13");
 const fs = require("fs");
 const yaml = require("js-yaml");
-const dotenv = require("dotenv");
 const config = yaml.load(fs.readFileSync("./config.yml", "utf8"));
 
-dotenv.config();
 const client = new Client();
 
 /**
@@ -61,7 +59,7 @@ client.on("ready", async () => {
  * Login using user token.
  */
 client
-  .login(process.env.TOKEN)
+  .login(config.token)
   .catch(() =>
-    console.error("❌ Invalid or missing token. Check your .env file.")
+    console.error("❌ Invalid or missing token. Check your config.yml file.")
   );
