@@ -23,7 +23,6 @@
   "homepage": "https://github.com/nexoslabs/discord-24-7-rich-presence#readme",
   "dependencies": {
     "discord.js-selfbot-v13": "^3.6.1",
-    "dotenv": "^16.5.0",
     "js-yaml": "^4.1.0"
   }
 }

@@ -1,8 +1,9 @@
+# Copy this file to config.yml and keep it out of version control.
 # Replace with your Discord user token
 token: "YOUR_DISCORD_TOKEN_HERE"
 
 # Replace with your Discord Application ID
-application_id: "1311204057490259979"
+application_id: "YOUR_APPLICATION_ID_HERE"
 
 # Activity type: 0 = Playing, 1 = Streaming, 2 = Listening, 3 = Watching
 type: 3
